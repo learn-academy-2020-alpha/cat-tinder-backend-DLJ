@@ -23,7 +23,8 @@ module CatTinderBackend
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
-    config.hosts << "2c09f06910644985803242bd59e5020b.vfs.cloud9.us-east-1.amazonaws.com"
+    config.hosts << "0.0.0.0"
+    config.hosts << "localhost"
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
