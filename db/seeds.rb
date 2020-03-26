@@ -15,8 +15,15 @@ cats = [
     name: 'Homer',
     age: 12,
     enjoys: 'Food mostly, really just food.'
+  },
+  {
+    name: 'Buster',
+    age: 4,
+    enjoys: 'Meow Mix, and plenty of sunshine.'
   }
+
 ]
 
 cats.each do |attributes|
   Cat.create attributes
+end
