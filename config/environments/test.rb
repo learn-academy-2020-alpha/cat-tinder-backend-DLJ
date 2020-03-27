@@ -4,7 +4,13 @@
 # and recreated between test runs. Don't rely on the data there!
 
 Rails.application.configure do
+<<<<<<< HEAD
   config.hosts = "www.example.com"
+=======
+  #Security testing
+  config.hosts = "www.example.com"
+  
+>>>>>>> 6d89f9b6bbe32ac333c428d60105e997fff85b6c
   # Settings specified here will take precedence over those in config/application.rb.
 
   config.cache_classes = false
