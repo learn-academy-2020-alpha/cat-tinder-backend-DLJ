@@ -45,7 +45,5 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rspec-rails', groups: [:development, :test]
-<<<<<<< HEAD
 gem 'rack-cors', :require => 'rack/cors'
-=======
->>>>>>> 6d89f9b6bbe32ac333c428d60105e997fff85b6c
+
